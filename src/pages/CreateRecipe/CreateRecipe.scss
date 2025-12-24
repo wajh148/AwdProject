@@ -1,0 +1,56 @@
+/* CreateRecipe.scss */
+
+/* Component wrapper */
+.create-recipe-container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Heading */
+.create-recipe-container h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+/* Form group spacing */
+.create-recipe-container .mb-3 {
+  margin-bottom: 20px !important;
+}
+
+/* Labels */
+.create-recipe-container .form-label {
+  font-weight: 600;
+  color: #34495e;
+}
+
+/* Inputs & select */
+.create-recipe-container .form-control,
+.create-recipe-container .form-select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  &:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+  }
+}
+
+/* Button */
+.create-recipe-container button {
+  width: 100%;
+  padding: 12px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  &:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+}

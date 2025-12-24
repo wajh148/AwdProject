@@ -1,0 +1,78 @@
+.mainDetails {
+  padding: 5px;
+
+  /* ⭐ STARS */
+  .star {
+    color: gold;
+    font-size: 18px;
+    display: inline-block;
+  }
+
+  .review {
+    border-bottom: 1px solid #d54215;
+    padding-bottom: 2px;
+  }
+
+  .cooking {
+    width: 100%;
+    height: 10px;
+    background: #e7ab46;
+  }
+
+  .circle {
+    color: #e7ab46;
+    font-size: 6px;
+  }
+
+  /* 🔥 MOST IMPORTANT FIX */
+  .midesection {
+    display: flex;
+    align-items: flex-start;   // same line
+    gap: 30px;
+  }
+
+  /* LEFT SIDE (image + content) */
+  .RecipeDetails {
+    img {
+      max-height: 260px;   // 👈 image height kam
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+
+  /* RIGHT SIDE (Cook's Note) */
+  .instructions {
+    max-width: 33rem;
+    width: 100%;
+    min-height: 200px;
+    padding: 20px;
+    border: 2px solid #114388;
+    margin-top: 0;        // 👈 neeche girne se roke
+  }
+
+  .user_review {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    max-width: 550px;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+  }
+}
+
+/* BUTTONS */
+.btn {
+  background: #d54215;
+  border: none;
+  color: #fff;
+  border-radius: unset;
+}
+
+.cancel_btn {
+  border: none;
+  color: black;
+  background-color: #fff;
+}
